@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*NAV ------------------- */
+
+nav {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    margin: 10px auto;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.info {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 95%;
+    padding: 10px;
+    align-content: center;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.info ul {
+    font-size: 15px;
+}
+
+/* catalogo ------------------------------*/
+
+.catalogo {
+    margin: 10px auto;
+    padding: 10px;
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.catalogo__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    grid-gap: 5px;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.item img {
+    width: 125px;
+    height: 195px;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.item h3 {
+    font-size: 18px;
+}
+
+.item h4 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.item p {
+    font-size: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* FOOTER ------------------------*/
+
+
+
