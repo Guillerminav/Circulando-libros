@@ -17,12 +17,14 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     align-content: center;
-    margin: 20px auto;
     width: 95%;
-    background-color: #5EAAA8;
+    background-color: #EB5E0B;
     border-radius: 10px;
     padding: 8px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    position: fixed;
+    top: 1px;
+    margin: 10px;
 }
 
 nav a {
@@ -44,13 +46,21 @@ nav a:hover {
 /* COMPRAR -------------------------*/
 
 .comprar {
-    margin: 30px auto;
+    margin-top: 85px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 95%;
     background-color: #F8F1F1;
     border-radius: 10px;
-    padding: 15px 5px;
+    padding: 5px 5px;
     text-align: center;
-    border: 2px solid #A3D2CA;
+    border: 2.5px solid #A3D2CA;
+}
+
+.comprar p {
+    font-size: 12px;
+    padding: 10px 15px;
 }
 
 .comprar a {
@@ -61,8 +71,7 @@ nav a:hover {
 /* CATÁLOGO ------------------------------*/
 
 .catalogo {
-    margin: auto;
-    padding: 5px;
+    margin: auto; 
     justify-content: center;
     text-align: center;
     width: 95%;
@@ -70,9 +79,9 @@ nav a:hover {
 
 .catalogo h2 {
     margin: auto;
-    border-radius: 10px;
     font-weight: 1000;
-    color: #5EAAA8;   
+    color: #5EAAA8; 
+    font-size: 18px;  
 }
 
 .catalogo__items {
@@ -84,31 +93,33 @@ nav a:hover {
 .item {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 5px auto;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 12px auto;
+    margin-left: 12px;
+    margin-right: 12px;
     grid-gap: 5px;
-    padding: 10px 5px;
+    padding: 10px 8px;
     background-color: #F8F1F1;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
 
 .item img {
-    width: 125px;
-    height: 195px;
+    width: 100px;
+    height: 160px;
     border-radius: 10px;
     margin: 5px auto;
 }
 
 .item h3 {
     font-size: 16px;
+    line-height: 0.9;
 }
 
 .item h4 {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgb(114, 124, 121);
     font-size: 14px;
+    line-height: 0.9;
 }
 
 .item p {
