@@ -112,18 +112,18 @@ nav a:hover {
 }
 
 .item h3 {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 0.9;
 }
 
 .item h4 {
     color: rgb(114, 124, 121);
-    font-size: 14px;
+    font-size: 10px;
     line-height: 0.9;
 }
 
 .item p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .item a {
@@ -131,7 +131,7 @@ nav a:hover {
     border: 1px solid;
     border-radius: 10px;
     padding: 5px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 1000;
     text-align: center;
     align-self: center;
