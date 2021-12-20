@@ -64,14 +64,14 @@ nav a:hover {
     width: 95%;
     background-color: #F8F1F1;
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 2px;
     text-align: center;
     border: 2.5px solid #A3D2CA;
 }
 
 .comprar p {
     font-size: 16px;
-    padding: 8px 14px;
+    padding: 4px 8px;
     color: #5EAAA8;
 }
 
