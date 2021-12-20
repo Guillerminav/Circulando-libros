@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
+    background-color: #FFF8E5;
 }
 
 /*NAV ------------------- */
@@ -16,11 +17,12 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     align-content: center;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 95%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #00A19D;
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px;
+    box-shadow:0 3px 5px 3px rgba(0,0,0,.2);
 }
 
 nav a {
@@ -28,16 +30,44 @@ nav a {
     margin: auto;
     padding: 5px;
     text-align: center;
+    align-self: center;
+    color: #FFF8E5;
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 10px;
 }
 
+nav a:hover {
+    color: #0f1624;
+}
+
+/*INFO -----------------------*/
 
 .info {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #FFB344;
+    box-shadow:0 3px 5px 3px rgba(0,0,0,.2);
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 95%;
-    padding: 10px;
+    padding: 15px;
     align-content: center;
+} 
+
+.info__items {
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    
+}
+
+.info__item {
+    background-color: #00A19D;
+    border-radius: 5px;
+    padding: 5px 3px;
+    align-self: center;
+    margin: 3px;
 }
 
 .info h2 {
@@ -52,7 +82,7 @@ nav a {
 /* COMPRAR -------------------------*/
 
 .comprar {
-    margin: 10px auto;
+    margin: 20px auto;
     width: 95%;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -60,10 +90,10 @@ nav a {
     text-align: center;
 }
 
-/* catalogo ------------------------------*/
+/* CATÁLOGO ------------------------------*/
 
 .catalogo {
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 10px;
     width: 95%;
     justify-content: center;
@@ -124,5 +154,25 @@ nav a {
 
 /* FOOTER ------------------------*/
 
+footer {
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.instagram a {
+    text-decoration: none;
+    color: blue;
+}
+
+.instagram {
+    font-weight: 1000;
+}
+
+.celular {
+    font-weight: 1000;
+    color: blue;
+}
 
 
