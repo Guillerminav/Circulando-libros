@@ -8,7 +8,7 @@
 body {
     font-family: 'Varela Round', sans-serif;
     background: url(fondo2.png);
-    background-position: top;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
