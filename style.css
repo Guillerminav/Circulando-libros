@@ -143,16 +143,16 @@ nav a:hover {
 /* FOOTER ------------------------*/
 
 footer {
-    display: grid;
     background-color: #EB5E0B;
     text-align: center;
-    padding: 20px 5px;
+    padding: 20px 2px;
     margin-top: 20px;
     color: #F8F1F1;
     width: 100%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+    border-radius: 10px;
 }
 
 .contacto a {
