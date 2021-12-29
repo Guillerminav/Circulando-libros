@@ -10,7 +10,7 @@ body {
 }
 
 .bigwrapper {
-    background: url(fondo2.png);
+    background: url(fondolibros2.png);
     margin: 0;
    background-repeat: no-repeat;
    background-position: center center;
@@ -36,12 +36,13 @@ nav {
     align-items: center;
     align-content: center;
     width: 95%;
-    background-color: #EB5E0B;
+    background-color: #3b1fa9;
     border-radius: 10px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     position: fixed;
     top: 1px;
     margin: 10px;
+    padding: 7px;
 }
 
 nav a {
@@ -50,10 +51,14 @@ nav a {
     padding: 5px;
     text-align: center;
     align-self: center;
-    color: #F8F1F1;
-    font-weight: 500;
+    color: #3b1fa9;
+    font-weight: 1000;
     font-size: 18px;
     box-shadow: 10px;
+}
+
+#comprarvender {
+    color: #ffffff;
 }
 
 nav a:hover {
@@ -61,16 +66,12 @@ nav a:hover {
 }
 
 #catalogonav {
-    background-color: #5EAAA8;
+    background-color: #b1dbd0;
     width: 100%;
     border-radius: 10px;
     margin: 0 auto;
-    padding: 10px;
 }
 
-#comprarvender {
-    padding: 10px;
-}
 
 /* COMPRAR -------------------------*/
 
@@ -80,22 +81,17 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    background-color: #F8F1F1;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 2px;
     text-align: center;
-    border: 2.5px solid #5EAAA8;
+    border: 2.5px solid #b1dbd0;
 }
 
 .comprar p {
     font-size: 16px;
-    padding: 4px 8px;
-    color: #5EAAA8;
-}
-
-.comprar a {
-    text-decoration: none;
-    color: #5EAAA8;
+    padding: 4px 6px;
+    color: #b1dbd0;
 }
 
 /* CATÁLOGO ------------------------------*/
@@ -108,10 +104,16 @@ nav a:hover {
 }
 
 .catalogo h2 {
+    display: inline;
     margin: auto;
-    font-weight: 1000;
-    color: #5EAAA8; 
-    font-size: 18px;  
+    font-weight: 500;
+    color: #ffffff; 
+    font-size: 18px;
+    border: 2px solid #e26e5a;
+    border-radius: 10px;
+    background-color: #e26e5a;
+    padding: 4px 16px;
+    display: none;
 }
 
 .catalogo__items {
@@ -196,7 +198,7 @@ nav a:hover {
     text-align: center;
     align-self: center;
     margin: 0 5px;
-    color: #5EAAA8;
+    color: #e26e5a;
 }
 
 /* SUBIR ---------*/
@@ -207,14 +209,18 @@ nav a:hover {
 
 .subir a {
     text-decoration: none;
-    color: #5EAAA8;
+    color: #ffffff;
+    border: 2px solid #3b1fa9;
+    border-radius: 10px;
+    background-color: #3b1fa9;
+    padding: 5px 14px;
 }
 
 
 /* FOOTER ------------------------*/
 
 footer {
-    background-color: #EB5E0B;
+    background-color: #e26e5a;
     text-align: center;
     padding: 20px 2px;
     margin-top: 20px;
