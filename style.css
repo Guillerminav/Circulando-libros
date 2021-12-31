@@ -105,8 +105,6 @@ nav a:hover {
     justify-content: center;
     text-align: center;
     width: 95%;
-    align-content: center;
-    align-items: center;
 }
 
 .catalogo h2 {
@@ -126,8 +124,6 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;  
     margin: auto;
-    align-content: center;
-    align-items: center;
 }
 
 
