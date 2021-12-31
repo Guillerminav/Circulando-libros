@@ -133,7 +133,6 @@ nav a:hover {
 .item {
     display: grid;
     grid-template-columns: 1fr;
-    margin: auto;
     grid-gap: 4px;
     padding: 8px 6px;
     background-color: white;
