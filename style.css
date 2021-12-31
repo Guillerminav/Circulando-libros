@@ -249,9 +249,8 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+/*
 @media all and (min-width: 1000px) {
-
-    /*NAV ------------------- */
 
 nav {
     display: grid;
@@ -287,5 +286,5 @@ nav a {
     
 }
     
-
+*/
 
