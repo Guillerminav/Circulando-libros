@@ -104,7 +104,7 @@ nav a:hover {
     margin-top: 75px;
     justify-content: center;
     text-align: center;
-    width: 95%;
+    width: 90%;
 }
 
 .catalogo h2 {
@@ -126,13 +126,14 @@ nav a:hover {
     margin-right: auto;
     margin-left: auto;
     grid-gap: 20px;
-    width: 95%;
 }
 
 
 .item {
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
     grid-gap: 4px;
     padding: 8px 6px;
     background-color: white;
