@@ -123,16 +123,18 @@ nav a:hover {
 .catalogo__items {
     display: grid;
     grid-template-columns: 1fr 1fr;  
+    margin-right: auto;
+    margin-left: auto;
+    grid-gap: 20px;
+    width: 95%;
 }
 
 
 .item {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 12px auto;
-    margin-left: 12px;
-    margin-right: 12px;
-    grid-gap: 5px;
+    margin: auto;
+    grid-gap: 4px;
     padding: 8px 6px;
     background-color: white;
     border-radius: 10px;
